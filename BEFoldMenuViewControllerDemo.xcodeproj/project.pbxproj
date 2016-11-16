@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1077948A1D4DAFC00041B2EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 107794891D4DAFC00041B2EE /* main.m */; };
+		1077948D1D4DAFC00041B2EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1077948C1D4DAFC00041B2EE /* AppDelegate.m */; };
+		107794931D4DAFC00041B2EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107794911D4DAFC00041B2EE /* Main.storyboard */; };
+		107794951D4DAFC00041B2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 107794941D4DAFC00041B2EE /* Assets.xcassets */; };
+		107794981D4DAFC00041B2EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107794961D4DAFC00041B2EE /* LaunchScreen.storyboard */; };
+		107794A31D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 107794A21D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoTests.m */; };
+		107794AE1D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 107794AD1D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoUITests.m */; };
+		107794E41D4DB1510041B2EE /* BEFoldMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107794E31D4DB1510041B2EE /* BEFoldMenuViewController.m */; };
+		107794E71D4DB16E0041B2EE /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 107794E61D4DB16E0041B2EE /* UIView+Frame.m */; };
+		107794EB1D4EFF600041B2EE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107794EA1D4EFF600041B2EE /* MainViewController.m */; };
+		107794EE1D4EFF730041B2EE /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107794ED1D4EFF730041B2EE /* LeftViewController.m */; };
+		1077951E1D4F99720041B2EE /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1077951C1D4F99720041B2EE /* MyTableViewCell.m */; };
+		1077951F1D4F99720041B2EE /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1077951D1D4F99720041B2EE /* MyTableViewCell.xib */; };
+		1077952A1D503BC30041B2EE /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 107795271D503BC30041B2EE /* left.png */; };
+		1077952B1D503BC30041B2EE /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = 107795281D503BC30041B2EE /* main.png */; };
+		1077952C1D503BC30041B2EE /* right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 107795291D503BC30041B2EE /* right.jpg */; };
+		1077952F1D503C1F0041B2EE /* BECustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1077952E1D503C1F0041B2EE /* BECustomSegue.m */; };
+		107795331D5051890041B2EE /* captureAnimation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 107795321D5051890041B2EE /* captureAnimation.gif */; };
+		107795351D50A41F0041B2EE /* segueSetup.png in Resources */ = {isa = PBXBuildFile; fileRef = 107795341D50A41F0041B2EE /* segueSetup.png */; };
+		29D5E4B61DD7968200EBEB7F /* LegExtensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D5E4B51DD7968200EBEB7F /* LegExtensionViewController.m */; };
+		5AA5921ECE1A67C425A7FDEE /* libPods-BEFoldMenuViewControllerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD75CC8C9EF2C58FB4389F9 /* libPods-BEFoldMenuViewControllerDemoTests.a */; };
+		5D9B42C2431E28F016A6659B /* libPods-BEFoldMenuViewControllerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAF4EA0A7C9C791A35E640C /* libPods-BEFoldMenuViewControllerDemo.a */; };
+		81A9CA4B220A9E89E35E9875 /* libPods-BEFoldMenuViewControllerDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA10F172A6EB06E741055BBD /* libPods-BEFoldMenuViewControllerDemoUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1077949F1D4DAFC00041B2EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1077947D1D4DAFC00041B2EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107794841D4DAFC00041B2EE;
+			remoteInfo = BEFoldMenuViewControllerDemo;
+		};
+		107794AA1D4DAFC00041B2EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1077947D1D4DAFC00041B2EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107794841D4DAFC00041B2EE;
+			remoteInfo = BEFoldMenuViewControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		107794851D4DAFC00041B2EE /* BEFoldMenuViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BEFoldMenuViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		107794891D4DAFC00041B2EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1077948B1D4DAFC00041B2EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1077948C1D4DAFC00041B2EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		107794921D4DAFC00041B2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		107794941D4DAFC00041B2EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		107794971D4DAFC00041B2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		107794991D4DAFC00041B2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1077949E1D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BEFoldMenuViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		107794A21D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEFoldMenuViewControllerDemoTests.m; sourceTree = "<group>"; };
+		107794A41D4DAFC00041B2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		107794A91D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BEFoldMenuViewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		107794AD1D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEFoldMenuViewControllerDemoUITests.m; sourceTree = "<group>"; };
+		107794AF1D4DAFC00041B2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		107794E21D4DB1510041B2EE /* BEFoldMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEFoldMenuViewController.h; sourceTree = "<group>"; };
+		107794E31D4DB1510041B2EE /* BEFoldMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEFoldMenuViewController.m; sourceTree = "<group>"; };
+		107794E51D4DB16E0041B2EE /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		107794E61D4DB16E0041B2EE /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		107794E91D4EFF600041B2EE /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		107794EA1D4EFF600041B2EE /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		107794EC1D4EFF730041B2EE /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		107794ED1D4EFF730041B2EE /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		1077951B1D4F99720041B2EE /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		1077951C1D4F99720041B2EE /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		1077951D1D4F99720041B2EE /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		107795271D503BC30041B2EE /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		107795281D503BC30041B2EE /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
+		107795291D503BC30041B2EE /* right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = right.jpg; sourceTree = "<group>"; };
+		1077952D1D503C1F0041B2EE /* BECustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BECustomSegue.h; sourceTree = "<group>"; };
+		1077952E1D503C1F0041B2EE /* BECustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BECustomSegue.m; sourceTree = "<group>"; };
+		107795321D5051890041B2EE /* captureAnimation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = captureAnimation.gif; sourceTree = "<group>"; };
+		107795341D50A41F0041B2EE /* segueSetup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segueSetup.png; sourceTree = "<group>"; };
+		29D5E4B41DD7968200EBEB7F /* LegExtensionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegExtensionViewController.h; sourceTree = "<group>"; };
+		29D5E4B51DD7968200EBEB7F /* LegExtensionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegExtensionViewController.m; sourceTree = "<group>"; };
+		44B4958203149BDD8E82E12C /* Pods-BEFoldMenuViewControllerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEFoldMenuViewControllerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BEFoldMenuViewControllerDemoUITests/Pods-BEFoldMenuViewControllerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5BD75CC8C9EF2C58FB4389F9 /* libPods-BEFoldMenuViewControllerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BEFoldMenuViewControllerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1DBC389E986ED8C96C00E7 /* Pods-BEFoldMenuViewControllerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEFoldMenuViewControllerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BEFoldMenuViewControllerDemoTests/Pods-BEFoldMenuViewControllerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DAF4EA0A7C9C791A35E640C /* libPods-BEFoldMenuViewControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BEFoldMenuViewControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5620BECBBB3835F51E7E15 /* Pods-BEFoldMenuViewControllerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEFoldMenuViewControllerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BEFoldMenuViewControllerDemoUITests/Pods-BEFoldMenuViewControllerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA8D5C6AC937BFDE036C62FA /* Pods-BEFoldMenuViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEFoldMenuViewControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BEFoldMenuViewControllerDemo/Pods-BEFoldMenuViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DA10F172A6EB06E741055BBD /* libPods-BEFoldMenuViewControllerDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BEFoldMenuViewControllerDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB881A764AADBF0D61A80648 /* Pods-BEFoldMenuViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEFoldMenuViewControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BEFoldMenuViewControllerDemo/Pods-BEFoldMenuViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E17806ED0918E298DC7CF192 /* Pods-BEFoldMenuViewControllerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEFoldMenuViewControllerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BEFoldMenuViewControllerDemoTests/Pods-BEFoldMenuViewControllerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		107794821D4DAFC00041B2EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9B42C2431E28F016A6659B /* libPods-BEFoldMenuViewControllerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1077949B1D4DAFC00041B2EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA5921ECE1A67C425A7FDEE /* libPods-BEFoldMenuViewControllerDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107794A61D4DAFC00041B2EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A9CA4B220A9E89E35E9875 /* libPods-BEFoldMenuViewControllerDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1077947C1D4DAFC00041B2EE = {
+			isa = PBXGroup;
+			children = (
+				107794E11D4DB1510041B2EE /* BEFoldMenuViewController */,
+				107794871D4DAFC00041B2EE /* BEFoldMenuViewControllerDemo */,
+				107794A11D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoTests */,
+				107794AC1D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoUITests */,
+				107794861D4DAFC00041B2EE /* Products */,
+				7CF3EC1B950DB602A9DA97CF /* Pods */,
+				51DBA89F7AFDD50AA2DDA700 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		107794861D4DAFC00041B2EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				107794851D4DAFC00041B2EE /* BEFoldMenuViewControllerDemo.app */,
+				1077949E1D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoTests.xctest */,
+				107794A91D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		107794871D4DAFC00041B2EE /* BEFoldMenuViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1077948B1D4DAFC00041B2EE /* AppDelegate.h */,
+				1077948C1D4DAFC00041B2EE /* AppDelegate.m */,
+				107794911D4DAFC00041B2EE /* Main.storyboard */,
+				29D5E4B41DD7968200EBEB7F /* LegExtensionViewController.h */,
+				29D5E4B51DD7968200EBEB7F /* LegExtensionViewController.m */,
+				107794E91D4EFF600041B2EE /* MainViewController.h */,
+				107794EA1D4EFF600041B2EE /* MainViewController.m */,
+				107794EC1D4EFF730041B2EE /* LeftViewController.h */,
+				107794ED1D4EFF730041B2EE /* LeftViewController.m */,
+				1077951B1D4F99720041B2EE /* MyTableViewCell.h */,
+				1077951C1D4F99720041B2EE /* MyTableViewCell.m */,
+				1077951D1D4F99720041B2EE /* MyTableViewCell.xib */,
+				107794941D4DAFC00041B2EE /* Assets.xcassets */,
+				107794961D4DAFC00041B2EE /* LaunchScreen.storyboard */,
+				107794991D4DAFC00041B2EE /* Info.plist */,
+				107794881D4DAFC00041B2EE /* Supporting Files */,
+			);
+			path = BEFoldMenuViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		107794881D4DAFC00041B2EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				107795261D503BC30041B2EE /* images */,
+				107794891D4DAFC00041B2EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		107794A11D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				107794A21D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoTests.m */,
+				107794A41D4DAFC00041B2EE /* Info.plist */,
+			);
+			path = BEFoldMenuViewControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		107794AC1D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				107794AD1D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoUITests.m */,
+				107794AF1D4DAFC00041B2EE /* Info.plist */,
+			);
+			path = BEFoldMenuViewControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+		107794E11D4DB1510041B2EE /* BEFoldMenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1077952D1D503C1F0041B2EE /* BECustomSegue.h */,
+				1077952E1D503C1F0041B2EE /* BECustomSegue.m */,
+				107794E51D4DB16E0041B2EE /* UIView+Frame.h */,
+				107794E61D4DB16E0041B2EE /* UIView+Frame.m */,
+				107794E21D4DB1510041B2EE /* BEFoldMenuViewController.h */,
+				107794E31D4DB1510041B2EE /* BEFoldMenuViewController.m */,
+			);
+			path = BEFoldMenuViewController;
+			sourceTree = "<group>";
+		};
+		107795261D503BC30041B2EE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				107795271D503BC30041B2EE /* left.png */,
+				107795281D503BC30041B2EE /* main.png */,
+				107795291D503BC30041B2EE /* right.jpg */,
+				107795321D5051890041B2EE /* captureAnimation.gif */,
+				107795341D50A41F0041B2EE /* segueSetup.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		51DBA89F7AFDD50AA2DDA700 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DAF4EA0A7C9C791A35E640C /* libPods-BEFoldMenuViewControllerDemo.a */,
+				5BD75CC8C9EF2C58FB4389F9 /* libPods-BEFoldMenuViewControllerDemoTests.a */,
+				DA10F172A6EB06E741055BBD /* libPods-BEFoldMenuViewControllerDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CF3EC1B950DB602A9DA97CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA8D5C6AC937BFDE036C62FA /* Pods-BEFoldMenuViewControllerDemo.debug.xcconfig */,
+				DB881A764AADBF0D61A80648 /* Pods-BEFoldMenuViewControllerDemo.release.xcconfig */,
+				7F1DBC389E986ED8C96C00E7 /* Pods-BEFoldMenuViewControllerDemoTests.debug.xcconfig */,
+				E17806ED0918E298DC7CF192 /* Pods-BEFoldMenuViewControllerDemoTests.release.xcconfig */,
+				AF5620BECBBB3835F51E7E15 /* Pods-BEFoldMenuViewControllerDemoUITests.debug.xcconfig */,
+				44B4958203149BDD8E82E12C /* Pods-BEFoldMenuViewControllerDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		107794841D4DAFC00041B2EE /* BEFoldMenuViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107794B21D4DAFC00041B2EE /* Build configuration list for PBXNativeTarget "BEFoldMenuViewControllerDemo" */;
+			buildPhases = (
+				0E05157807AF79E5624ADD8E /* [CP] Check Pods Manifest.lock */,
+				107794811D4DAFC00041B2EE /* Sources */,
+				107794821D4DAFC00041B2EE /* Frameworks */,
+				107794831D4DAFC00041B2EE /* Resources */,
+				185F065CA607436FB431EEB4 /* [CP] Embed Pods Frameworks */,
+				B8596A1A1D147CC7398DF48B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BEFoldMenuViewControllerDemo;
+			productName = BEFoldMenuViewControllerDemo;
+			productReference = 107794851D4DAFC00041B2EE /* BEFoldMenuViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1077949D1D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107794B51D4DAFC00041B2EE /* Build configuration list for PBXNativeTarget "BEFoldMenuViewControllerDemoTests" */;
+			buildPhases = (
+				E14E1A423B52C1F04B9F2AE5 /* [CP] Check Pods Manifest.lock */,
+				1077949A1D4DAFC00041B2EE /* Sources */,
+				1077949B1D4DAFC00041B2EE /* Frameworks */,
+				1077949C1D4DAFC00041B2EE /* Resources */,
+				93833CCF0E69D54AE53E9C9E /* [CP] Embed Pods Frameworks */,
+				76CA898AA7A42659F09CB031 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				107794A01D4DAFC00041B2EE /* PBXTargetDependency */,
+			);
+			name = BEFoldMenuViewControllerDemoTests;
+			productName = BEFoldMenuViewControllerDemoTests;
+			productReference = 1077949E1D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		107794A81D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107794B81D4DAFC00041B2EE /* Build configuration list for PBXNativeTarget "BEFoldMenuViewControllerDemoUITests" */;
+			buildPhases = (
+				271E9631AA02B36C177A16AB /* [CP] Check Pods Manifest.lock */,
+				107794A51D4DAFC00041B2EE /* Sources */,
+				107794A61D4DAFC00041B2EE /* Frameworks */,
+				107794A71D4DAFC00041B2EE /* Resources */,
+				1DF3B9D786E0325256E22BA8 /* [CP] Embed Pods Frameworks */,
+				C656B81F94A0009973DA971A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				107794AB1D4DAFC00041B2EE /* PBXTargetDependency */,
+			);
+			name = BEFoldMenuViewControllerDemoUITests;
+			productName = BEFoldMenuViewControllerDemoUITests;
+			productReference = 107794A91D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1077947D1D4DAFC00041B2EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vũ Trường Giang";
+				TargetAttributes = {
+					107794841D4DAFC00041B2EE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = P8RP23SELN;
+					};
+					1077949D1D4DAFC00041B2EE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 107794841D4DAFC00041B2EE;
+					};
+					107794A81D4DAFC00041B2EE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 107794841D4DAFC00041B2EE;
+					};
+				};
+			};
+			buildConfigurationList = 107794801D4DAFC00041B2EE /* Build configuration list for PBXProject "BEFoldMenuViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1077947C1D4DAFC00041B2EE;
+			productRefGroup = 107794861D4DAFC00041B2EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				107794841D4DAFC00041B2EE /* BEFoldMenuViewControllerDemo */,
+				1077949D1D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoTests */,
+				107794A81D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		107794831D4DAFC00041B2EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1077951F1D4F99720041B2EE /* MyTableViewCell.xib in Resources */,
+				1077952C1D503BC30041B2EE /* right.jpg in Resources */,
+				107795351D50A41F0041B2EE /* segueSetup.png in Resources */,
+				1077952A1D503BC30041B2EE /* left.png in Resources */,
+				107794981D4DAFC00041B2EE /* LaunchScreen.storyboard in Resources */,
+				107795331D5051890041B2EE /* captureAnimation.gif in Resources */,
+				1077952B1D503BC30041B2EE /* main.png in Resources */,
+				107794951D4DAFC00041B2EE /* Assets.xcassets in Resources */,
+				107794931D4DAFC00041B2EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1077949C1D4DAFC00041B2EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107794A71D4DAFC00041B2EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E05157807AF79E5624ADD8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		185F065CA607436FB431EEB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BEFoldMenuViewControllerDemo/Pods-BEFoldMenuViewControllerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DF3B9D786E0325256E22BA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BEFoldMenuViewControllerDemoUITests/Pods-BEFoldMenuViewControllerDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		271E9631AA02B36C177A16AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		76CA898AA7A42659F09CB031 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BEFoldMenuViewControllerDemoTests/Pods-BEFoldMenuViewControllerDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93833CCF0E69D54AE53E9C9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BEFoldMenuViewControllerDemoTests/Pods-BEFoldMenuViewControllerDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8596A1A1D147CC7398DF48B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BEFoldMenuViewControllerDemo/Pods-BEFoldMenuViewControllerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C656B81F94A0009973DA971A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BEFoldMenuViewControllerDemoUITests/Pods-BEFoldMenuViewControllerDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E14E1A423B52C1F04B9F2AE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		107794811D4DAFC00041B2EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107794E41D4DB1510041B2EE /* BEFoldMenuViewController.m in Sources */,
+				1077948D1D4DAFC00041B2EE /* AppDelegate.m in Sources */,
+				107794E71D4DB16E0041B2EE /* UIView+Frame.m in Sources */,
+				29D5E4B61DD7968200EBEB7F /* LegExtensionViewController.m in Sources */,
+				107794EE1D4EFF730041B2EE /* LeftViewController.m in Sources */,
+				107794EB1D4EFF600041B2EE /* MainViewController.m in Sources */,
+				1077952F1D503C1F0041B2EE /* BECustomSegue.m in Sources */,
+				1077951E1D4F99720041B2EE /* MyTableViewCell.m in Sources */,
+				1077948A1D4DAFC00041B2EE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1077949A1D4DAFC00041B2EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107794A31D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107794A51D4DAFC00041B2EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107794AE1D4DAFC00041B2EE /* BEFoldMenuViewControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		107794A01D4DAFC00041B2EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 107794841D4DAFC00041B2EE /* BEFoldMenuViewControllerDemo */;
+			targetProxy = 1077949F1D4DAFC00041B2EE /* PBXContainerItemProxy */;
+		};
+		107794AB1D4DAFC00041B2EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 107794841D4DAFC00041B2EE /* BEFoldMenuViewControllerDemo */;
+			targetProxy = 107794AA1D4DAFC00041B2EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		107794911D4DAFC00041B2EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				107794921D4DAFC00041B2EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		107794961D4DAFC00041B2EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				107794971D4DAFC00041B2EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		107794B01D4DAFC00041B2EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		107794B11D4DAFC00041B2EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		107794B31D4DAFC00041B2EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA8D5C6AC937BFDE036C62FA /* Pods-BEFoldMenuViewControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P8RP23SELN;
+				INFOPLIST_FILE = BEFoldMenuViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jstites.BEFoldMenuViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		107794B41D4DAFC00041B2EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB881A764AADBF0D61A80648 /* Pods-BEFoldMenuViewControllerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P8RP23SELN;
+				INFOPLIST_FILE = BEFoldMenuViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jstites.BEFoldMenuViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		107794B61D4DAFC00041B2EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F1DBC389E986ED8C96C00E7 /* Pods-BEFoldMenuViewControllerDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BEFoldMenuViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beetsoft.BEFoldMenuViewControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BEFoldMenuViewControllerDemo.app/BEFoldMenuViewControllerDemo";
+			};
+			name = Debug;
+		};
+		107794B71D4DAFC00041B2EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17806ED0918E298DC7CF192 /* Pods-BEFoldMenuViewControllerDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BEFoldMenuViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beetsoft.BEFoldMenuViewControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BEFoldMenuViewControllerDemo.app/BEFoldMenuViewControllerDemo";
+			};
+			name = Release;
+		};
+		107794B91D4DAFC00041B2EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF5620BECBBB3835F51E7E15 /* Pods-BEFoldMenuViewControllerDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = BEFoldMenuViewControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beetsoft.BEFoldMenuViewControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BEFoldMenuViewControllerDemo;
+			};
+			name = Debug;
+		};
+		107794BA1D4DAFC00041B2EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44B4958203149BDD8E82E12C /* Pods-BEFoldMenuViewControllerDemoUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = BEFoldMenuViewControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beetsoft.BEFoldMenuViewControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BEFoldMenuViewControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		107794801D4DAFC00041B2EE /* Build configuration list for PBXProject "BEFoldMenuViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107794B01D4DAFC00041B2EE /* Debug */,
+				107794B11D4DAFC00041B2EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		107794B21D4DAFC00041B2EE /* Build configuration list for PBXNativeTarget "BEFoldMenuViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107794B31D4DAFC00041B2EE /* Debug */,
+				107794B41D4DAFC00041B2EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		107794B51D4DAFC00041B2EE /* Build configuration list for PBXNativeTarget "BEFoldMenuViewControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107794B61D4DAFC00041B2EE /* Debug */,
+				107794B71D4DAFC00041B2EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		107794B81D4DAFC00041B2EE /* Build configuration list for PBXNativeTarget "BEFoldMenuViewControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107794B91D4DAFC00041B2EE /* Debug */,
+				107794BA1D4DAFC00041B2EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1077947D1D4DAFC00041B2EE /* Project object */;
+}

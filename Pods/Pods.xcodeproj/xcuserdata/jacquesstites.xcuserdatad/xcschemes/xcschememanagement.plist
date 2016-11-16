@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BEMSimpleLineGraph.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-BEFoldMenuViewControllerDemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-BEFoldMenuViewControllerDemoTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-BEFoldMenuViewControllerDemoUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2072D1DF5BFD9E8B5826A6936EED91A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3AA3125F8292C6DC21A4D0024BFFD0E1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F7A26C597AE128703B1E51737CCD59DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA3EA4F795F62223D105E812EBC2C4DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
